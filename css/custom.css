@@ -6,3 +6,11 @@
   padding: 7px;
   width: auto;
 }
+body {
+  background-image: url('../img/bg.jpg');
+  background-size:stretch;
+}
+.jumbotron {
+  background: rgb(210, 231, 252); /* This is for ie8 and below */
+  background: rgba(210, 231, 252, 0.9);
+}
