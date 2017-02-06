@@ -7,10 +7,14 @@
   width: auto;
 }
 body {
-  background-image: url('../img/bg.jpg');
-  background-size:stretch;
+  background-color: rgb(110, 171, 225);
 }
 .jumbotron {
-  background: rgb(210, 231, 252); /* This is for ie8 and below */
-  background: rgba(210, 231, 252, 0.9);
+  background: rgb(153, 201, 244);
+}
+.col-lg-4 a {
+  color: rgb(14, 58, 96) !important;
+}
+.col-lg-4 a:hover, a:active {
+  color: rgb(208, 227, 244) !important;
 }
